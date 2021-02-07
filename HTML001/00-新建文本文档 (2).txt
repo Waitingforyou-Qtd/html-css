@@ -1,0 +1,11 @@
+<html>
+	<head></head>
+	<body>
+		<br /> 换行
+	</body>
+</html>
+
+html  根标签
+head 头部标签
+body 主体内容
+br      换行
