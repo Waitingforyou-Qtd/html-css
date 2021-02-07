@@ -1,0 +1,9 @@
+p {
+    background-color: blue;
+    color: rgb(255, 0, 0);
+    font-size: 100px;
+    height: 350px;
+    text-align: center;
+    line-height: 350px;
+    font-weight: 900;
+}
