@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>CSS层叠性</title>
+    <style>
+      .box1 {
+        width: 550px;
+        height: 550px;
+        background-color: green;
+        margin-top: 10px;
+      }
+      .box {
+        width: 500px;
+        height: 500px;
+        background-color: red;
+      }
+      .small {
+        width: 200px;
+        height: 200px;
+        background-color: pink;
+        margin-top: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box1">
+      <div class="box">
+        <div class="small"></div>
+      </div>
+    </div>
+  </body>
+</html>
