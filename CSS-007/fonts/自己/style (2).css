@@ -1,0 +1,110 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?qaf2bi');
+  src:  url('fonts/icomoon.eot?qaf2bi#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?qaf2bi') format('truetype'),
+    url('fonts/icomoon.woff?qaf2bi') format('woff'),
+    url('fonts/icomoon.svg?qaf2bi#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-sound:before {
+  content: "\e900";
+}
+.icon-food:before {
+  content: "\e902";
+}
+.icon-azurepipelines:before {
+  content: "\e903";
+  color: #2560e0;
+}
+.icon-furrynetwork:before {
+  content: "\e904";
+  color: #2e75b4;
+}
+.icon-swift:before {
+  content: "\e905";
+  color: #fa7343;
+}
+.icon-trendmicro:before {
+  content: "\e906";
+  color: #d71921;
+}
+.icon-twitter:before {
+  content: "\e907";
+  color: #1da1f2;
+}
+.icon-home2:before {
+  content: "\e901";
+}
+.icon-bullhorn:before {
+  content: "\e91a";
+}
+.icon-connection:before {
+  content: "\e91b";
+}
+.icon-location2:before {
+  content: "\e948";
+}
+.icon-printer:before {
+  content: "\e954";
+}
+.icon-keyboard:before {
+  content: "\e955";
+}
+.icon-display:before {
+  content: "\e956";
+}
+.icon-enlarge:before {
+  content: "\e989";
+}
+.icon-shrink:before {
+  content: "\e98a";
+}
+.icon-wink2:before {
+  content: "\e9e8";
+}
+.icon-grin:before {
+  content: "\e9e9";
+}
+.icon-point-up:before {
+  content: "\ea03";
+}
+.icon-point-right:before {
+  content: "\ea04";
+}
+.icon-point-left:before {
+  content: "\ea06";
+}
+.icon-checkmark2:before {
+  content: "\ea11";
+}
+.icon-volume-high:before {
+  content: "\ea26";
+}
+.icon-ungroup:before {
+  content: "\ea59";
+}
+.icon-insert-template:before {
+  content: "\ea72";
+}
+.icon-tux:before {
+  content: "\eabd";
+}
