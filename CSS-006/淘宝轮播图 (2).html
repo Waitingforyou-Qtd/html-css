@@ -1,0 +1,109 @@
+<!--
+ * @Author: your name
+ * @Date: 2020-10-21 10:24:45
+ * @LastEditTime: 2020-11-03 21:35:29
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \→前端基础←\08-前端基础CSS第六天\案例\淘宝轮播图.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        .tb {
+            position: relative;
+            width: 520px;
+            height: 280px;
+            /* background-color: red; */
+            margin: 100px auto;
+        }
+
+        .tb img {
+            width: 520px;
+            height: 280px;
+        }
+
+        .zuo,
+        .you {
+            position: absolute;
+            top: 50%;
+            margin-top: -15px;
+            width: 20px;
+            height: 30px;
+            line-height: 30px;
+            text-decoration: none;
+            background: rgba(0, 0, 0, .3);
+            text-align: center;
+            color: #fff;
+        }
+
+        .zuo {
+            left: 0;
+            border-top-right-radius: 15px;
+            border-bottom-right-radius: 15px;
+        }
+
+        .you {
+            right: 0;
+            border-top-left-radius: 15px;
+            border-bottom-left-radius: 15px;
+        }
+
+        .xia {
+            position: absolute;
+            bottom: 15px;
+            left: 50%;
+            margin-left: -35px;
+            width: 70px;
+            height: 13px;
+            background: rgba(0, 0, 0, .3);
+            /* color: #fff; */
+            border-radius: 7px;
+        }
+
+        .xia li {
+            float: left;
+            width: 8px;
+            height: 8px;
+            background-color: #fff;
+            border-radius: 50%;
+            margin: 3px;
+        }
+
+        .xia .red {
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="tb">
+        <img src="./images/tb.jpg" alt="">
+        <a href="#" class="zuo"> &lt; </a>
+        <a href="#" class="you"> &gt; </a>
+        <div class="xia">
+            <ul>
+                <li></li>
+                <li></li>
+                <li class="red"></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

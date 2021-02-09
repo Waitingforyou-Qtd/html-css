@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .tudou {
+            position: relative;
+            width: 444px;
+            height: 320px;
+            margin: 10px auto;
+            background-color: salmon;
+        }
+        .tudou img {
+            width: 100%;
+            height: 100%;
+
+        }
+        .tudou::before {
+            content: '我是谁？我在哪？';
+            text-align: center;
+            font-family: '楷体';
+            font-size: 50px;
+            font-weight: 800;
+            line-height: 320px;
+            color: rgb(135, 247, 8);
+            display: none;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, .4) url(./images/arr.png) no-repeat center;
+            top: 0;
+            left: 0;
+        }
+        .tudou:hover::before {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="tudou">
+        <!-- <div class="yin"></div> -->
+        <img src="./images/img.jpg">
+    </div>
+    <div class="tudou">
+        <!-- <div class="yin"></div> -->
+        <img src="./images/tb.jpg">
+    </div>
+    <div class="tudou">
+        <!-- <div class="yin"></div> -->
+        <img src="./images/pig.jpg">
+    </div>
+    <div class="tudou">
+        <!-- <div class="yin"></div> -->
+        <img src="./images/pvp.png">
+    </div>
+    <div class="tudou">
+        <!-- <div class="yin"></div> -->
+        <img src="./images/img.jpg">
+    </div>
+    <div class="tudou">
+        <!-- <div class="yin"></div> -->
+        <img src="./images/pvp.png">
+    </div>
+</body>
+</html>
