@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .box {
+            text-align: center;
+        }
+        .box a {
+            display: inline-block;
+            width: 36px;
+            height: 36px;
+            line-height: 36px;
+            background-color: #ffffff;
+            border: 1px solid #f4f4f4;
+            text-align: center;
+            text-decoration: none;
+            color: #333;
+            font-size: 14px;
+        }
+        .box .pr ,
+        .box .ne{
+            width: 85px;
+
+        }
+        .box .cu,
+        .box .el{
+        background-color: #fff;
+        border: none;
+        }
+        .box input {
+            width: 35px;
+            height: 45px;
+            border: 1px solid rgb(21, 202, 21);
+            outline: none;
+        }
+        .box button{
+            width: 60px;
+            height: 36px;
+            background-color: #e41313;
+            border: 1px solid #ccc;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <a href="#" class="pr">&lt;&lt;上一页</a>
+        <a href="#" class="cu"></a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <a href="#">6</a>
+        <a href="#" class="el">...</a>
+        <a href="#" class="ne">&gt;&gt;下一页</a>
+        到第
+        <input type="text">
+        页
+        <button>确定</button>
+
+    </div>
+</body>
+</html>

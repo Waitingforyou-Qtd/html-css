@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .cor {
+        width: 600px;
+        height: 400px;
+        transform: translateX(-50%);
+        position: relative;
+        left: 50%;
+        top: 50%;
+        background-color: pink;
+    }
+
+    .cok {
+        width: 100px;
+        height: 100px;
+        background-color: #ccc;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 30px;
+    }
+
+    .cod {
+        background-color: red;
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 30px;
+    }
+</style>
+
+<body>
+    <div class="cor">
+        <div class="cok">1</div>
+        <div class="cod">2</div>
+    </div>
+    <script>
+        class Obj {
+            constructor(id) {
+                let k = document.querySelector(id)
+                this.init()
+            }
+            init() {
+                
+
+            }
+        }
+        let a = new obj('.cor')
+    </script>
+</body>
+
+</html>
